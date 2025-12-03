@@ -26,6 +26,12 @@
             font-weight: normal;
             padding-left: 10px;
         }
+        /* Add a style to make the row label bold and left-aligned even if it is a <td> */
+        .size-chart tbody tr td:first-child {
+            text-align: left;
+            font-weight: bold;
+            padding-left: 10px;
+        }
     </style>
 </head>
 	
@@ -46,23 +52,22 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">Waist</th>
-                <td></td>                   <td>25</td>                  <td>28</td>
+                <td>Waist</td> 
+				<td colspan="2">25</td> 
+                <td>28</td>
                 <td>30</td>
                 <td>31</td>
                 <td>32</td>
             </tr>
             <tr>
-                <th scope="row">Chest</th>
-                <td>34</td>
+                <td>Chest</td>                 <td>34</td>
                 <td>34</td>
                 <td>38</td>
                 <td>40</td>
                 <td>41</td>
             </tr>
             <tr>
-                <th scope="row">Sleeve</th>
-                <td>23</td>
+                <td>Sleeve</td>                 <td>23</td>
                 <td>24</td>
                 <td>24</td>
                 <td>25</td>
